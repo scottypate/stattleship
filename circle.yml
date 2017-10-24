@@ -1,0 +1,14 @@
+## Specify python version
+machine:
+  python:
+    version: 3.4.3
+
+dependencies:
+  pre:
+    - "pip install --upgrade pip"
+    - "pip install git+https://github.com/scottypate/stattleship.git"
+
+## Customize test commands
+test:
+  override:
+    - python -m unittest discover
