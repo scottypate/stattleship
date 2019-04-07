@@ -25,3 +25,7 @@ stattleship.get_data(
     param_dict=params
 )
 ```
+
+# License
+
+See [LICENSE](LICENSE.md) file for rights and limitations (GNU GPL v3).
